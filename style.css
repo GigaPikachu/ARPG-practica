@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+    #botones {
+        display: none;
+    }
+    #button-up {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #botones {
+        border: 0px;
+        position: fixed;
+        bottom: 10px;
+        left: 25%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #button-up {
+        background-color: transparent;
+        position: fixed;
+        bottom: 60px;
+        left: 25%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50px; height: 50px;
+    }
+
+    #button-down {
+        background-color: transparent;
+        width: 50px; height: 50px;
+    }
+
+    #button-left {
+        background-color: transparent;
+        width: 50px; height: 50px;
+        
+    }
+
+    #button-right {
+        background-color: transparent;
+        width: 50px; height: 50px;
+    }
+}
+
+#juego {
+    background-color: yellow;
+    width: 512;
+    height: 480;
+}
